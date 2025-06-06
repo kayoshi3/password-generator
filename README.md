@@ -58,3 +58,26 @@ cd password-generator
 python password-generator.py
 
 
+Planned Improvements / Learning Objectives
+To enhance both functionality and maintainability of the project while deepening my understanding of secure coding practices, the following improvements are planned:
+
+Switch to secrets module for cryptographically secure password generation
+
+Add option to exclude ambiguous characters (e.g., l, 1, O, 0)
+
+Refine symbol selection, limiting or customizing allowed special characters
+
+Ensure minimum character type inclusion (at least one uppercase, one digit, etc.)
+
+Improve input handling with thorough validation in the main() function
+
+Provide password strength feedback based on length and character diversity
+
+Enable generation of multiple passwords per request
+
+Enhance user prompts and instructions for better usability
+
+Separate UI from logic for modular, testable code
+
+Add comprehensive docstrings and comments for clarity and documentation
+
